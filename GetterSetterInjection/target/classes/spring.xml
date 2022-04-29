@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"> 
+    <!-- creat an object -->
+    <bean id="productob" class="com.edu.Product"><!--  Product eob=setPid(1) -->
+    <property name="pid" value ="100"></property>
+    <property name="pname" value ="mobile"></property>
+    <property name="price" value ="45000"></property>
+    
+    </bean>
+    </beans>
